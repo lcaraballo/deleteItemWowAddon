@@ -7,6 +7,7 @@ Importante: el item será eliminado y no podrá ser recuperado de ninguna forma.
 Modo de uso: El usuario escribe en el chat /deleteItem espacio y apreta Shift + click en el item que quiere eliminar y Enter
 
 Ejemplos:
+
 /deleteItem [Cecina dura]
 
 /deleteItem [Cinturón de infantería] 
