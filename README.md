@@ -2,6 +2,8 @@ DeleteItem Wow Addon
 --------------------
 Este addon/complemento/plugin del juego World of Warcraft que permite al usuario borrar un item de su inventario sin ninguna confirmación. DeleteItem es una recompilación de codigos extraídos de diversos foros de World of Warcraft y Lua
 
+Actualmente se está testeando
+
 Importante: el item será eliminado y no podrá ser recuperado de ninguna forma.
 
 Modo de uso: El usuario escribe en el chat /deleteItem espacio y apreta Shift + click en el item que quiere eliminar y Enter
