@@ -1,0 +1,6 @@
+## Interface: 60200
+## Title: Delete Item
+## Author: Leonardo Caraballo
+## Version: 0.1
+
+deleteItem.lua
