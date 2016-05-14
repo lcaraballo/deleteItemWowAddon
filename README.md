@@ -8,7 +8,6 @@ Modo de uso: El usuario escribe en el chat /deleteItem espacio y apreta Shift + 
 
 Ejemplos:
 /deleteItem [Cecina dura]
-
 /deleteItem [Cinturón de infantería] 
 
 Condiciones de Uso:
