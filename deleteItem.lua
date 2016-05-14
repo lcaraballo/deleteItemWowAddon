@@ -1,6 +1,7 @@
 --My First Wow Addon 2016-05-14
 --Delete a specific item from player inventory without confirmation
 --Created from pieces of codes extracted from forums about wow and lua topics
+--Actualy is in beta testing phase 
 
 SLASH_DELETEITEM1="/deleteItem"
 SlashCmdList["DELETEITEM"] = function(msg)
