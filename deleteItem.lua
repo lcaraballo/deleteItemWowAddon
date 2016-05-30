@@ -10,12 +10,13 @@ SlashCmdList["DELETEITEM"] = function(msg)
 			local itemlink = GetContainerItemLink(bag, bagSlots)
 			local unusedTexture, itemCount = GetContainerItemInfo(bag, bagSlots)
 			if (itemlink) then
-					local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture, vendorPrice = GetItemInfo(itemlink)
-					if (itemLink==msg) then
-							PickupContainerItem(bag,bagSlots);
-							DeleteCursorItem();
-					end
-		  end
+				for v in string.gmatch(msg, "[^,]+") do
+					  if (string.trim(v)==string.trim(itemlink)) then
+					  	PickupContainerItem(bag,bagSlots)
+						DeleteCursorItem()
+					  end
+				end
+		  	end
 		end
 	end
 end
