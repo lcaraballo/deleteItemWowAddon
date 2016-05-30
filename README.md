@@ -6,13 +6,21 @@ Actualmente se está testeando
 
 Importante: el item será eliminado y no podrá ser recuperado de ninguna forma.
 
-Modo de uso: El usuario escribe en el chat /deleteItem espacio y apreta Shift + click en el item que quiere eliminar y Enter
+Modo de uso: 
+
+El usuario escribe en el chat /deleteItem espacio y apreta Shift + click en el item que quiere eliminar y Enter
+
+El separador coma permite eliminar varios items a la vez
+
+Si hay muchos items repetidos se borraran todos
 
 Ejemplos:
 
 /deleteItem [Cecina dura]
 
 /deleteItem [Cinturón de infantería] 
+
+/deleteItem [Cinturón de infantería],[Cecina dura]
 
 Condiciones de Uso:
 El autor de este software/plugin/addon no se hace responsable de nigún daño resultante del uso de este software/plugin/addon o imposibilidad de usar este software por el usuario o terceras partes. 
